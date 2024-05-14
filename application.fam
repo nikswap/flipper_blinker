@@ -1,0 +1,9 @@
+App(
+    appid="example_apps_blinker",
+    name="Blinker App",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="example_blinker_main",
+    requires=["gui"],
+    stack_size=4 * 1024,
+    fap_category="Examples",
+)
